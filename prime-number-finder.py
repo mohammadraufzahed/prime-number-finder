@@ -1,4 +1,4 @@
-txt = input("Type your number:")
+txt = input("Type your number:") #This will take the number from user
 number = int(txt)
 #Put your number here
 prime = True
