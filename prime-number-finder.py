@@ -1,8 +1,10 @@
-n = 3 # put your number here
+txt = input("Type your number:")
+number = int(txt)
+#Put your number here
 prime = True
 
-for i in range(2, n):
-    if n % i == 0:
+for i in range(2, number): #Prime number recognition
+    if number % i == 0:
         prime = False
 if prime:
     print("It's prime number")
