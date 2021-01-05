@@ -1,6 +1,6 @@
-txt = input("Type your number:") #This will take the number from user
-number = int(txt)
-#Put your number here
+# Get the number from the user
+number = int(input("Type your number:"))
+# Put your number here
 prime = True
 
 for i in range(2, number): #Prime number recognition
